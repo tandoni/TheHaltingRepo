@@ -1,4 +1,16 @@
 // regular expressions are composed of five parts
 /*
- * 
+ * Kappa     :  The set of states
+ * Sigma     :  The language for the FSM
+ * Delta     :  The transition function for routes between states
+ * Start     :  The start state
+ * Accepting :  The set of states that accept
  */
+
+{
+    kappa : [fsm_state],
+    sigma : [alphabet],
+    delta : [fsm_transition],
+    start : fsm_state,
+    accepting : [fsm_state]
+}

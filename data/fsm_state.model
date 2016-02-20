@@ -1,0 +1,7 @@
+/**
+ * FSM States have a state name
+ */
+
+{
+    name : state_name
+}

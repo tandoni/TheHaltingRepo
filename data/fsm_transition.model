@@ -1,0 +1,13 @@
+/**
+ * FSM transitions have a few parts and will be expressed as follows
+ *
+ * (K x a) -> K
+ */
+
+{
+    fsm_state : {
+        a1 : fsm_state1,
+        a2 : fsm_state2,
+        a3 : fsm_state3
+    }
+}
