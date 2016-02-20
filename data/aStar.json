@@ -1,5 +1,5 @@
 {
-    kappa : [q0, q1],
+    kappa: [q0, q1],
     sigma : ['a','b','c'],
     delta : {
         q0 : { 'a' : q1,
